@@ -15,9 +15,9 @@ read -p "Enter the service number: " number
 
 if [[ "$choice" == "i" ]]; then
   read -p "Enter your ip: " ip
-  execstart="--tunnel --lport:$port --toip:$ip --toport:$tport --sni:data.services.jetbrains.com --password:doodool --terminate:6"
+  execstart="--tunnel --lport:$port --toip:$ip --toport:$tport --sni:google.com --password:havijbastani --terminate:6"
 else
-  execstart="--server --lport:$tport --toip:127.0.0.1 --toport:$port --sni:data.services.jetbrains.com --password:doodool --terminate:6"
+  execstart="--server --lport:$tport --toip:127.0.0.1 --toport:$port --sni:google.com --password:havijbastani --terminate:6"
 fi
 echo "[Unit]
 Description=Faketls tunnel $number
