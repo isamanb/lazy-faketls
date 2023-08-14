@@ -6,7 +6,7 @@
 دانلود فایل های مورد نیاز و تنظیمات اولیه (در هردو سرور اجرا شود) :
 ```
 apt install wget
-wget https://github.com/omid-j-d/lazy-faketls/releases/download/bash/faketls.sh
+wget [https://github.com/omid-j-d/lazy-faketls/releases/download/bash/faketls.sh](https://github.com/isamanb/lazy-faketls/releases/download/lazy/faketls.sh)
 chmod +x faketls.sh
 ```
 
